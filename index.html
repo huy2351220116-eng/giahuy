@@ -21,7 +21,7 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="#home" class="logo">
-        <span class="logo-bracket">&lt;</span>GiaHuy<span class="logo-bracket">/&gt;</span>
+        <span class="logo-bracket">&lt;</span><span class="logo-bracket">/&gt;</span>
       </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about" class="nav-link">Về tôi</a></li>
@@ -121,9 +121,9 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            Xin chào! Tôi là <strong>Hoàng Gia Huy</strong>, sinh ngày <strong>24/09/2005</strong>.
-            Hiện tôi đang là sinh viên ngành <strong>Công nghệ Thông tin</strong> với niềm đam mê
-            mãnh liệt với lập trình web và phát triển phần mềm.
+            Xin chào! Tôi là <strong>Hoàng Gia Huy</strong>, hiện đang là sinh viên ngành
+            <strong>Công nghệ Thông tin</strong> với niềm đam mê mãnh liệt với lập trình web
+            và phát triển phần mềm.
           </p>
           <p>
             Tôi thích khám phá công nghệ mới, xây dựng những sản phẩm có giá trị thực tế và không
@@ -131,7 +131,8 @@
             <strong>Full-stack Developer</strong> chuyên nghiệp.
           </p>
           <p>
-            Khi không code, tôi thích nghe nhạc, chơi game và đọc các bài viết về công nghệ mới nhất.
+            Khi không code, tôi thích nghe nhạc, chơi game, đọc các bài viết về công nghệ mới nhất
+            và đặc biệt rất đam mê <strong>⚽ đá bóng</strong>.
           </p>
 
           <div class="about-info">
@@ -141,13 +142,6 @@
                 <div>
                   <span class="info-label">Họ tên</span>
                   <span class="info-value">Hoàng Gia Huy</span>
-                </div>
-              </div>
-              <div class="info-item">
-                <i class="fas fa-birthday-cake"></i>
-                <div>
-                  <span class="info-label">Ngày sinh</span>
-                  <span class="info-value">24/09/2005</span>
                 </div>
               </div>
               <div class="info-item">
@@ -199,7 +193,7 @@
           </div>
           <div class="stat-card glass-card">
             <div class="stat-icon"><i class="fas fa-star"></i></div>
-            <span class="stat-number" data-target="1">0</span>
+            <span class="stat-number" data-target="3">0</span>
             <span class="stat-label">Năm học đại học</span>
           </div>
           <div class="stat-card glass-card">
@@ -301,48 +295,57 @@
 
       <div class="projects-grid">
         <div class="project-card glass-card">
-          <div class="project-top">
-            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
-            <div class="project-links">
-              <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
-              <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+          <div class="project-bar"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
             </div>
-          </div>
-          <h3>Website Bán Hàng</h3>
-          <p>Ứng dụng thương mại điện tử với giao diện thân thiện, quản lý sản phẩm và giỏ hàng đầy đủ chức năng.</p>
-          <div class="project-stack">
-            <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            <h3>Website Bán Hàng</h3>
+            <p>Ứng dụng thương mại điện tử với giao diện thân thiện, quản lý sản phẩm và giỏ hàng đầy đủ chức năng.</p>
+            <div class="project-stack">
+              <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
           </div>
         </div>
 
         <div class="project-card glass-card featured">
+          <div class="project-bar"></div>
           <div class="project-featured-tag">⭐ Nổi bật</div>
-          <div class="project-top">
-            <div class="project-icon"><i class="fas fa-tasks"></i></div>
-            <div class="project-links">
-              <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
-              <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-icon"><i class="fas fa-tasks"></i></div>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
             </div>
-          </div>
-          <h3>Ứng dụng Quản lý Công việc</h3>
-          <p>Todo app với tính năng kéo thả, phân loại công việc, thông báo deadline và đồng bộ dữ liệu real-time.</p>
-          <div class="project-stack">
-            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span>
+            <h3>Ứng dụng Quản lý Công việc</h3>
+            <p>Todo app với tính năng kéo thả, phân loại công việc, thông báo deadline và đồng bộ dữ liệu real-time.</p>
+            <div class="project-stack">
+              <span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span>
+            </div>
           </div>
         </div>
 
         <div class="project-card glass-card">
-          <div class="project-top">
-            <div class="project-icon"><i class="fas fa-robot"></i></div>
-            <div class="project-links">
-              <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
-              <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+          <div class="project-bar"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-icon"><i class="fas fa-robot"></i></div>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub" class="proj-link"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Demo" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
             </div>
-          </div>
-          <h3>Chatbot Hỗ trợ Sinh viên</h3>
-          <p>Chatbot thông minh hỗ trợ trả lời câu hỏi về lịch học, điểm số và thông tin trường đại học.</p>
-          <div class="project-stack">
-            <span>Python</span><span>NLP</span><span>Flask</span><span>React</span>
+            <h3>Chatbot Hỗ trợ Sinh viên</h3>
+            <p>Chatbot thông minh hỗ trợ trả lời câu hỏi về lịch học, điểm số và thông tin trường đại học.</p>
+            <div class="project-stack">
+              <span>Python</span><span>NLP</span><span>Flask</span><span>React</span>
+            </div>
           </div>
         </div>
       </div>
@@ -384,7 +387,7 @@
               <i class="fas fa-map-marker-alt"></i>
               <div>
                 <span class="cc-label">Địa điểm</span>
-                <span class="cc-value">Việt Nam</span>
+                <span class="cc-value">79 Trung Lương 16,TP Đà Nẵng</span>
               </div>
             </div>
           </div>
